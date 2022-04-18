@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 from setuptools import find_packages, setup
-
+os.system('pip install torch')
 import torch
 from torch.utils.cpp_extension import (BuildExtension, CppExtension,
                                        CUDAExtension)
