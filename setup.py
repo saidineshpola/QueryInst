@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!~/anaconda/bin/python python
 import os
 from setuptools import find_packages, setup
 os.system('pip install torch')
